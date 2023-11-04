@@ -1,11 +1,11 @@
 import Image from 'next/image'
 import About from './about'
+import Dental from './components/dental'
 
 export default function Home() {
   return (<>
-  <div>
-    <p className='h-40'>Hi, Hello Its Durga !!!
-    </p>
+  <div className='container mx-auto lg:px-32'>
+    <Dental />
     </div></>
   )
     
